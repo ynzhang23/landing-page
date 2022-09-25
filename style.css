@@ -1,8 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;300;400;500;700;800;900&display=swap');
 
 body {
-    font-family: 'Roboto', sans-serif;
-    font-family: 'Varela Round', sans-serif;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
     display: flex;
     flex-direction: column;
     margin: 0;
@@ -22,27 +21,92 @@ a:active {
 }
 
 .header {
-    background-color: rgb(255, 246, 181);
     display: flex;
     flex-direction: row;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 246, 181);
     height: 100px;
 }
 
-.header .header-logo {
-    height: 70px;
-    flex: 0 auto;
-    margin-right: 450px;
+.header .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 850px;
 }
 
-.header .header-link {
+.header-logo {
+    height: 80px;
+    flex: 0 auto;
+    margin-right: auto;
+}
+
+.header-link {
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-shrink: 0;
+    margin-left: auto;
 }
 
 .header-link a {
-    margin: 0px 8px;
+    margin: 0px 14px;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(187, 140, 110);
+}
+
+.body-one {
+    background-color: rgb(255, 246, 181);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+.body-one .container {
+    width: 850px;
+    flex: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container .description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.body-one-header {
+    text-align: center;
+    font-size: 40px;
+    font-weight:900;
+    margin-bottom: 20px;
+}
+
+.body-one-img img {
+    height: 210px;
+    margin-left: 50px;
+}
+
+.body-one-button {
+    background-color: lightcoral;
+    color: beige;
+    border: none;
+    padding: 10px 30px;
+    font-size: large;
+}
+
+.body-one-button:hover {
+    background-color: aquamarine;
+    color: lightcoral;
 }
