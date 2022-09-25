@@ -5,6 +5,7 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
+    box-sizing: border-box;
 }
 
 a {
@@ -26,8 +27,8 @@ a:active {
     justify-content: center;
     align-items: center;
     background-color: rgb(255, 246, 181);
-    height: 100px;
-    padding-top: 15px;
+    height: 80px;
+    padding-top: 25px;
 }
 
 .header .container{
@@ -70,7 +71,7 @@ a:active {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    height: 400px;
+    height: 350px;
 }
 
 .body-one .container {
@@ -87,7 +88,7 @@ a:active {
     align-items: center;
 }
 
-.body-one-header {
+.body-one-title {
     text-align: center;
     font-size: 40px;
     font-weight:900;
