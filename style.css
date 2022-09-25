@@ -27,6 +27,7 @@ a:active {
     align-items: center;
     background-color: rgb(255, 246, 181);
     height: 100px;
+    padding-top: 15px;
 }
 
 .header .container{
@@ -73,10 +74,10 @@ a:active {
 }
 
 .body-one .container {
-    width: 850px;
-    flex: none;
+    width: 850px; 
     display: flex;
     justify-content: space-between;
+    column-gap: 50px;
 }
 
 .container .description {
@@ -95,7 +96,6 @@ a:active {
 
 .body-one-img img {
     height: 210px;
-    margin-left: 50px;
 }
 
 .body-one-button {
@@ -104,6 +104,7 @@ a:active {
     border: none;
     padding: 10px 30px;
     font-size: large;
+    border-radius: 25px;
 }
 
 .body-one-button:hover {
