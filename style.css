@@ -126,27 +126,44 @@ a:active {
 
 .body-two .gallery {
     display: flex;
-    flex-direction: row;
+    flex-flow: row wrap;
     justify-content: center;
-    align-items: center;
-    column-gap: 30px;
+    align-items: flex-end;
+    column-gap: 10px;
+    row-gap: 30px;
+    max-width: 850px;
 }
 
 .gallery img {
-    width: 200px;
+    max-width: 400px;
 }
 
 .gallery>div {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    row-gap: 8px;
+    align-items: stretch;
 }
 
 .body-two .title {
-    color: rgb(223, 214, 206);
+    color: rgb(255, 247, 240);
     text-shadow: 3px 2px black;
     font-weight: 500;
     font-size: 27px;
     margin-bottom: 25px;
+}
+
+.body-two .border {
+    border: 2px solid black;
+}
+
+.caption {
+    background-color: beige;
+    border: 2px solid black;
+    text-align: center;
+}
+
+.tintin-scotland {
+    height: 283.8px;
+    width: 404px;
+    
 }
