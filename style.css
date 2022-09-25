@@ -55,6 +55,7 @@ a:active {
 }
 
 .header-link a {
+    font-weight: 300;
     margin: 0px 14px;
 }
 
@@ -90,8 +91,8 @@ a:active {
 
 .body-one-title {
     text-align: center;
-    color: olivedrab;
-    text-shadow: 2px 0px darkslateblue;  
+    color: rgb(12, 130, 22);
+    text-shadow: -2px 0px rgb(237, 149, 55);  
     font-size: 40px;
     font-weight:900;
     margin-bottom: 20px;
@@ -105,9 +106,9 @@ a:active {
     background-color: lightcoral;
     color: beige;
     border: none;
-    padding: 10px 30px;
+    padding: 5px 20px;
     font-size: large;
-    border-radius: 25px;
+    border-radius: 15px;
 }
 
 .body-one-button:hover {
@@ -144,8 +145,8 @@ a:active {
 
 .body-two .title {
     color: rgb(223, 214, 206);
-    text-shadow: 3px 3px black;
-    font-weight: 700;
+    text-shadow: 3px 2px black;
+    font-weight: 500;
     font-size: 27px;
     margin-bottom: 25px;
 }
