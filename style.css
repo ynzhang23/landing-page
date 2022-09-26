@@ -209,13 +209,13 @@ a:active {
 .body-four {
     display: flex;
     flex-direction: row;
-    background-color: rgb(158, 226, 255);
+    background-color: rgb(255, 246, 181);
     box-sizing: border-box;
     align-self: center;
     justify-content: space-between;
     width: 850px;
     align-self: center;
-    margin-top: 40px;
+    margin: 40px 0px;
     border-radius: 8px;
     padding: 50px;
 }
@@ -244,4 +244,13 @@ a:active {
 
 .body-four .button:hover {
     border: 2px solid hotpink;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(158, 226, 255);
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
 }
