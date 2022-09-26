@@ -205,3 +205,43 @@ a:active {
     font-size: 20px;
     font-weight: 700;
 }
+
+.body-four {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(158, 226, 255);
+    box-sizing: border-box;
+    align-self: center;
+    justify-content: space-between;
+    width: 850px;
+    align-self: center;
+    margin-top: 40px;
+    border-radius: 8px;
+    padding: 50px;
+}
+
+.body-four .container {
+    display: flex;
+    flex-direction: column;
+}
+
+.body-four-header {
+    font-size: 20px;
+    font-weight: 900;
+    color: green;
+}
+
+.body-four-body {
+    color: green;
+}
+
+.body-four .button {
+    border: 2px solid green;
+    align-self: center;
+    background-color: transparent;
+    padding: 5px 10px;
+}
+
+.body-four .button:hover {
+    border: 2px solid hotpink;
+}
