@@ -158,15 +158,32 @@ a:active {
 }
 
 .caption {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     background-color: beige;
     border: 2px solid black;
+    padding: 5px;
+    box-sizing: border-box;
     text-align: center;
+    width: 404px;
+    font-size: 23px;
+    font-weight: 400;
 }
+
+.caption div{
+    font-size: 15px;
+    font-weight: 300;
+}
+
 
 .tintin-scotland {
     height: 283.8px;
-    width: 404px;
-    
+    width: 400px;
+}
+
+.tintin-tibet {
+    align-self: center;
 }
 
 .body-three {
