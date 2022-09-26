@@ -196,7 +196,8 @@ a:active {
 
 .quote span {
     font-weight: 600;
-    color: blue;
+    color: rgb(68, 46, 234);
+    text-shadow: 7px 3px rgb(226, 101, 67);
 }
 
 .quoted-from {
