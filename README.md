@@ -1,6 +1,6 @@
-# landing-page
+# Tintin Gallery
 
-This website is completed as an assignment for Odin Project.
+This website is completed as the "Landing Page" assignment for Odin Project.
 
 ## image-credit
 
